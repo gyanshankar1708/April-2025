@@ -16,5 +16,5 @@ btn.addEventListener("click",()=>{
 
 if (localStorage.getItem("Note")){
     let noteVal = localStorage.getItem("Note");
-    display.innerHTML += `<div>${note}</div>`
+    display.innerHTML += `<div>${noteVal}</div>`
 }
